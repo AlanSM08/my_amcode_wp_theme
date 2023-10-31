@@ -1,5 +1,5 @@
 <?php
-$banner_image = get_sub_field('minha_imagem');
+$banner_image = get_sub_field('minha_imagem') ? get_sub_field('minha_imagem') : get_theme_file_uri() . '/src/images/eu_2.png';
 $banner_title = get_sub_field('titulo');
 $banner_subtitle = get_sub_field('subtitulo');
 $banner_text = get_sub_field('text_description');

@@ -1,8 +1,8 @@
 <?php
-$about_me_image = get_sub_field('about_me_home_image');
+$about_me_image = get_sub_field('about_me_home_image') ? get_sub_field('about_me_home_image') : get_theme_file_uri() . '/src/images/about-mod.png';
 $about_me_titulo = get_sub_field('titulo_about_me');
 $about_me_subtitulo = get_sub_field('subtitulo_about_me');
-$about_me_icon = get_sub_field('about_me_icon');
+$about_me_icon = get_sub_field('about_me_icon') ? get_sub_field('about_me_icon') : get_theme_file_uri() . '/src/images/v-icon1.png'; //fazer isso para todas as imagens.
 $about_me_button = get_sub_field('about_me_button');
 
 ?>
