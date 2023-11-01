@@ -64,10 +64,11 @@ Inicio CSS - Banner
   font-weight:bolder;
   font-size: 28px;
   padding-top: 50px;
-  padding-bottom: 80px;
+  margin-bottom: 0px !important;
 }
 
 .b-container .row .col-md-6 h3 {
+  padding-top: 20px;
   font-size: 30px;
   color: #00104D;
   font-weight: bolder;
@@ -138,13 +139,12 @@ Inicio CSS - About me
 */
 
 .a-container {
-  padding-top: 150px;
+  padding-top: 30px;
 }
 
 .a-bar {
   align-items: center !important;
   padding-bottom: 70px;
-  align-items: center;
   color: #00104D;
 }
 
@@ -214,12 +214,12 @@ Inicio CSS - About me
 
 .grad_left {
   height: 3px;
-  background-image: linear-gradient( to left, #00BBF2 20%, white, white, white );
+  background-image: linear-gradient( to left, #00BBF2 50%, white);
 }
 
 .grad_rigth {
   height: 3px;
-  background-image: linear-gradient( to right, #00BBF2 20%, white, white, white);
+  background-image: linear-gradient( to right, #00BBF2 50%, white);
 }
 
 
@@ -297,7 +297,7 @@ Inicio CSS - Skills
 
 .s_container {
   padding-inline: 130px !important;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 100px;
 }
 
@@ -346,12 +346,12 @@ Inicio CSS - Skills
 }
 
 .s_container .col-md-6 .row p{
-  padding-left: 20px;
+  padding-left: 0px;
   font-size: 20px;
 }
 
 .s_container .col-md-6 .row h2 {
-  padding-left: 12px;
+  padding-left: 0px;
 }
 
 .s_hr {
@@ -423,7 +423,7 @@ Inicio CSS - Contact
   font-size: 25px;
   width: auto;
   color: #fff;
-  background-color: #00BBF2 !important;
+  background-color: rgb(0, 187, 242) !important;
   border-color: #00BBF2 !important;
   text-decoration: none;
 }
@@ -437,7 +437,7 @@ Inicio CSS - Footer
   margin-top: 80px;
   justify-content: center;
   display: flex;
-  height: 150px;
+  height: 100px;
   background-color: #00BBF2;
 }
 
@@ -560,44 +560,52 @@ Inicio CSS - Responsivo
     flex-wrap: nowrap !important;
   }
 
+  .blue-bar {
+    margin-inline: 0px !important;
+  }
+
   .a-bar h2{
     text-align: center;
     font-size: 35px !important;
   }
 
   .grad_left {
-    width: 200px !important;
+    width: 50px !important;
     height: 3px;
-    background-image: linear-gradient( to left, #00BBF2 20%, white, white, white );
+    background-image: linear-gradient( to left, #00BBF2 40%, white);
   }
   
   .grad_rigth {
-    width: 200px !important;
+    width: 50px !important;
     height: 3px;
-    background-image: linear-gradient( to right, #00BBF2 20%, white, white, white);
+    background-image: linear-gradient( to right, #00BBF2 40%, white);
   }
 
 
   /** About Me */
 
   .a-container {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-inline: 0px !important;
   }
 
   .a-bg {
-    margin-left: -15px !important;
-    padding-right: 0px !important;
-    padding-left: 40px !important;
+    padding-top: 0px !important;
+    padding-bottom: 50px !important;
+    padding-inline: 40px !important;
   }
 
-  .c-img {
-    padding-right: 40px !important;
+  .a-bg .col-md-6 .row {
+    padding-inline: 15px !important;
   }
 
-  .i_text .col-md-6 {
-    padding-left: 16px !important;
+  .i_text .col-md-6 .row {
+    padding-inline: 0px !important;
   }
+
+  .i_text p {
+    font-size: 19px !important;
+  }
+
 
 
   /** My Project */
@@ -607,10 +615,14 @@ Inicio CSS - Responsivo
   }
 
 
-  /** My Project */
+  /** My Skill */
 
   .s_container {
     padding-inline: 40px !important;
+  }
+
+  .s_text .row {
+    padding-inline: 15px;
   }
 
   .s_text {

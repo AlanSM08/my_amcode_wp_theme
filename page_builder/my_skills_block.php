@@ -44,14 +44,14 @@ $skills_home_image4 = get_sub_field('skills_home_image4');
             <div class="card-body">
               <img src="<?= $skills_home_image2 ?>" alt="css.png">
               <h2>Bootstrap</h2>
-              <p>Create advance mobile features.</p>
+              <p>Create advance and creative mobile features.</p>
             </div>
           </div>
         </div>
         <div class="col-md-6 mb-5">
           <div class="card">
             <div class="card-body">
-              <img src="<?= $skills_home_image2 ?>" alt="javascript.png">
+              <img src="<?= $skills_home_image3 ?>" alt="javascript.png">
               <h2>Javascript</h2>
               <p>Create high level and dinamic structures.</p>
             </div>
@@ -60,7 +60,7 @@ $skills_home_image4 = get_sub_field('skills_home_image4');
         <div class="col-md-6">
           <div class="card">
             <div class="card-body">
-              <img src="<?= $skills_home_image3 ?>" alt="php.png">
+              <img src="<?= $skills_home_image4 ?>" alt="php.png">
               <h2>PHP</h2>
               <p>Create dinamic user products with update ideas.</p>
             </div>

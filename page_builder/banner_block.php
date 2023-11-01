@@ -4,16 +4,16 @@ $banner_title = get_sub_field('titulo');
 $banner_subtitle = get_sub_field('subtitulo');
 $banner_text = get_sub_field('text_description');
 $banner_button = get_sub_field('button_url');
-$b_icon1 = get_sub_field('b_icon1');
-$b_icon2 = get_sub_field('b_icon2');
-$b_icon3 = get_sub_field('b_icon3');
+$b_icon1 = get_sub_field('b_icon1') ? get_sub_field('b_icon1') : get_theme_file_uri() . '/src/images/icone1-banner2.png';
+$b_icon2 = get_sub_field('b_icon2') ? get_sub_field('b_icon2') : get_theme_file_uri() . '/src/images/icone2-banner2.png';
+$b_icon3 = get_sub_field('b_icon3') ? get_sub_field('b_icon3') : get_theme_file_uri() . '/src/images/icone3-banner2.png';
 ?>
 <!-- START THE BANNER -->
 <div class="container-fluid b-container">
   <div class="row pt-5 pt-5">
     <div class="col-md-6 pr-5 py-5">
       <h2 class="featurette-heading"><?= $banner_title; ?></h2>
-      <h3 class="pt-4"><?= $banner_subtitle; ?></h3>
+      <h3><?= $banner_subtitle; ?></h3>
       <p class="lead pt-4"><?= $banner_text; ?></p>
       <a class="btn btn-primary btn-lg p-3" href="#about_me" role="button">About Me</a>
     </div>

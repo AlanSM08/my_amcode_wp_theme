@@ -2,9 +2,9 @@
 $contact_title = get_sub_field('contact_title');
 $contact_subtitle = get_sub_field('contact_subtitle');
 $contact_text = get_sub_field('contact_text');
-$c_phone = get_sub_field('c_phone');
-$c_mail = get_sub_field('c_mail');
-$c_address = get_sub_field('c_address');
+$c_phone = get_sub_field('c_phone') ? get_sub_field('c_phone') : get_theme_file_uri() . '/src/images/c-phone3.png';
+$c_mail = get_sub_field('c_mail') ? get_sub_field('c_mail') : get_theme_file_uri() . '/src/images/c-mail3.png';
+$c_address = get_sub_field('c_address') ? get_sub_field('c_address') : get_theme_file_uri() . '/src/images/c-address3.png';
 ?>
 
 <!-- START THE CONTACT -->
@@ -54,24 +54,24 @@ $c_address = get_sub_field('c_address');
           <div class="col-md-6">
             <div class="card mb-4">
               <div class="card-body">
-                <input type="text" name="name" size="40" id="InputName" placeholder="Full name" required>
+                <input type="text" name="name" size="20" id="InputName" placeholder="Full name" required>
               </div>
             </div>
             <div class="card">
               <div class="card-body">
-                <input type="text" name="email" size="40" id="InputEmail" placeholder="Your email" required>
+                <input type="text" name="email" size="20" id="InputEmail" placeholder="Your email" required>
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card mb-4">
               <div class="card-body">
-                <input type="text" name="phone" size="40" id="InputNumber" placeholder="Phone number" required>
+                <input type="text" name="phone" size="20" id="InputNumber" placeholder="Phone number" required>
               </div>
             </div>
             <div class="card">
               <div class="card-body">
-                <input type="text" name="budget" size="40" id="InputBudget" placeholder="Budget" required>
+                <input type="text" name="budget" size="20" id="InputBudget" placeholder="Budget" required>
               </div>
             </div>
           </div>
