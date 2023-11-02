@@ -18,8 +18,10 @@ $c_address = get_sub_field('c_address') ? get_sub_field('c_address') : get_theme
   </div>
   <div class="row">
     <div class="c_subtitle d-flex-column justify-content-center text-center">
-      <h3 class="pb-4"><?= $contact_subtitle ?></h3>
-      <p><?= $contact_text ?></p>
+      <div class="row">
+        <h3 class="pb-4"><?= $contact_subtitle ?></h3>
+        <p><?= $contact_text ?></p>
+      </div>
     </div>
   </div>
   <div class="row">

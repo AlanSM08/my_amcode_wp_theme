@@ -22,7 +22,7 @@ $about_me_button = get_sub_field('about_me_button');
         <h3><?= $about_me_subtitulo; ?></h3>
       </div>
       <div class="row i_text py-4">
-        <div class="col-md-6 pl-3">
+        <div class="col-md-6">
           <div class="row">
             <img src="<?= $about_me_icon ?>" alt="">
             <p>Front-end Developer</p>

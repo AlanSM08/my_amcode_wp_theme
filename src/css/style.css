@@ -501,13 +501,16 @@ Inicio CSS - Responsivo
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
+
+  .row {
+    margin-inline: 0px !important;
+  }
   
 
   /** Banner */
 
   .b-container {
-    padding-left: 40px !important;
-    padding-right: 10px !important;
+    padding-inline: 0px !important;
   }
 
   .b-container .row {
@@ -590,7 +593,7 @@ Inicio CSS - Responsivo
   .a-bg {
     padding-top: 0px !important;
     padding-bottom: 50px !important;
-    padding-inline: 40px !important;
+    padding-inline: 0px !important;
   }
 
   .a-bg .col-md-6 .row {
@@ -598,6 +601,10 @@ Inicio CSS - Responsivo
   }
 
   .i_text .col-md-6 .row {
+    padding-inline: 0px !important;
+  }
+
+  .i_text .col-md-6{
     padding-inline: 0px !important;
   }
 
@@ -617,7 +624,7 @@ Inicio CSS - Responsivo
   /** My Skill */
 
   .s_container {
-    padding-inline: 40px !important;
+    padding-inline: 0px !important;
   }
 
   .s_text .row {
@@ -631,7 +638,15 @@ Inicio CSS - Responsivo
   /** My Contact */
 
   .c_container {
-    padding-inline: 40px !important;
+    padding-inline: 0px !important;;
+  }
+
+  .c_subtitle {
+    padding-inline: 15px;
+  }
+
+  .c_subtitle .row {
+    padding-inline: 15px;
   }
 
   .c_container .row .col-md-4 h3 {
@@ -648,7 +663,7 @@ Inicio CSS - Responsivo
   }
 
   .c_container .col-md-8 {
-    padding-left: 20px !important;
+    padding-left: 15px !important;
   }
 
   .c_container .col-md-8 .col-md-6 {
