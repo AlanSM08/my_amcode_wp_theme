@@ -591,18 +591,17 @@ Inicio CSS - Responsivo
   }
 
   .a-bar h2{
+    width: 190px;
     text-align: center;
-    font-size: 35px !important;
+    font-size: 30px !important;
   }
 
   .grad_left {
-    width: 50px !important;
     height: 3px;
     background-image: linear-gradient( to left, #00BBF2 40%, white);
   }
   
   .grad_rigth {
-    width: 50px !important;
     height: 3px;
     background-image: linear-gradient( to right, #00BBF2 40%, white);
   }
@@ -692,7 +691,7 @@ Inicio CSS - Responsivo
   /** My Contact */
 
   .c_container {
-    padding-inline: 0px !important;;
+    padding: 0px !important;
   }
 
   .c_subtitle {
@@ -730,5 +729,16 @@ Inicio CSS - Responsivo
 
   .c_container .col-md-8 .col-md-6 {
     padding-bottom: 30px;
+  }
+
+  /** My Footer */
+
+  .footer {
+    padding-top: 0px !important;
+    margin-top: 0px  !important;
+  }
+
+  .footer h2 {
+    font-size: 19px !important;
   }
 }
