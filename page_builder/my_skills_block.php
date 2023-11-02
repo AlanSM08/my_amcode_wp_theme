@@ -21,7 +21,7 @@ $skills_home_image4 = get_sub_field('skills_home_image4') ? get_sub_field('skill
   <div class="row">
     <div class="col-md-6 s_text">
       <div class="row">
-        <h3 class="py-5"><?= $skills_home_subtitle ?></h3>
+        <h3 class="py-2"><?= $skills_home_subtitle ?></h3>
         <p><?= $skills_home_text ?></p>        
       </div>
       <div class="row">

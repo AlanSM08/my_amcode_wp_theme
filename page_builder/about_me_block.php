@@ -51,7 +51,7 @@ $about_me_button = get_sub_field('about_me_button');
       </div>
     </div>
     <div class="col-md-6 c-img">
-      <img class="featurette-image img-fluid mx-auto" alt="500x500" src="<?= $about_me_image; ?>" data-holder-rendered="true">
+      <img class="a-img featurette-image img-fluid mx-auto" alt="500x500" src="<?= $about_me_image; ?>" data-holder-rendered="true">
     </div>
   </div>
 </div>
