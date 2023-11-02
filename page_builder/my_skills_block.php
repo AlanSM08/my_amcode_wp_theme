@@ -3,10 +3,10 @@ $skills_home_title = get_sub_field('skills_home_title');
 $skills_home_subtitle = get_sub_field('skills_home_subtitle');
 $skills_home_text = get_sub_field('skills_home_text');
 $skills_home_button = get_sub_field('skills_home_button');
-$skills_home_image1 = get_sub_field('skills_home_image1');
-$skills_home_image2 = get_sub_field('skills_home_image2');
-$skills_home_image3 = get_sub_field('skills_home_image3');
-$skills_home_image4 = get_sub_field('skills_home_image4');
+$skills_home_image1 = get_sub_field('skills_home_image1') ? get_sub_field('skills_home_image1') : get_theme_file_uri() . '/src/images/html-5.png';
+$skills_home_image2 = get_sub_field('skills_home_image2') ? get_sub_field('skills_home_image2') : get_theme_file_uri() . '/src/images/bootstrap.png';
+$skills_home_image3 = get_sub_field('skills_home_image3') ? get_sub_field('skills_home_image3') : get_theme_file_uri() . '/src/images/javascript.png';
+$skills_home_image4 = get_sub_field('skills_home_image4') ? get_sub_field('skills_home_image4') : get_theme_file_uri() . '/src/images/php-e1698841101513.png.png';
 ?>
 
 <!-- START THE SKILLS -->
