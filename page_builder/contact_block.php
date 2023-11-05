@@ -18,7 +18,7 @@ $c_address = get_sub_field('c_address') ? get_sub_field('c_address') : get_theme
   </div>
   <div class="row">
     <div class="c_subtitle d-flex-column justify-content-center text-center">
-      <div class="row">
+      <div class="cont row">
         <h3 class="pb-4"><?= $contact_subtitle ?></h3>
         <p><?= $contact_text ?></p>
       </div>
@@ -87,12 +87,9 @@ $c_address = get_sub_field('c_address') ? get_sub_field('c_address') : get_theme
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="c-button row">
           <button class="btn btn-primary btn-lg c-button mt-5" href="#cbutton" role="button">Submit Message</button>
         </div>
-        <input type="hidden" name="_subject" value="New Contact!">
-        <input type="text" name="_honey" style="display: none">
-        <input type="hidden" name="_captcha" value="false">
       </form>
     </div>
   </div>

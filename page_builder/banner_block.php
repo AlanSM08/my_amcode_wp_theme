@@ -10,7 +10,7 @@ $b_icon3 = get_sub_field('b_icon3') ? get_sub_field('b_icon3') : get_theme_file_
 ?>
 <!-- START THE BANNER -->
 <div class="container-fluid b-container">
-  <div class="row pt-5 pt-5">
+  <div class="b-prim row pt-5 pt-5">
     <div class="col-md-6 pb-5">
       <div class="row">
         <h2 class="featurette-heading"><?= $banner_title; ?></h2>
@@ -26,7 +26,7 @@ $b_icon3 = get_sub_field('b_icon3') ? get_sub_field('b_icon3') : get_theme_file_
     </div>
   </div>
   <div class="bot_tab">
-    <div class="row shadow-lg p-3 mb-5 bg-white rounded container-fluid ">
+    <div class="row shadow-lg p-3 mb-5 bg-white rounded ">
       <div class="col-md-4">
         <div class="card c-1 bg-transparent">
           <div class="card-body row">
